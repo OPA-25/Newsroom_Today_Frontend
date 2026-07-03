@@ -1,0 +1,123 @@
+/* News Feed Visual Presentation Styling */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.public-news-section h1 {
+    font-size: 28px;
+    color: #1a202c;
+    margin-bottom: 4px;
+}
+
+.public-news-section .subtitle {
+    color: #718096;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.news-grid-mock {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+@media (min-width: 768px) {
+    .news-grid-mock {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.news-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.category-tag {
+    background: #edf2f7;
+    color: #4a5568;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.news-meta {
+    font-size: 12px;
+    color: #a0aec0;
+    display: block;
+    margin-top: 12px;
+}
+
+/* Protected Component Section Dividers */
+.protected-staff-zone {
+    margin-top: 20px;
+    padding-top: 24px;
+    border-top: 3px double #cbd5e0;
+}
+
+.zone-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ebf8ff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    border-left: 4px solid #3182ce;
+}
+
+.zone-header h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #2b6cb0;
+}
+
+.user-role-badge {
+    background: #3182ce;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.admin-exclusive-wrapper {
+    margin-top: 30px;
+    border-top: 2px dashed #ecc94b;
+    padding-top: 20px;
+}
+
+.admin-alert-banner {
+    background-color: #fefcbf;
+    color: #744210;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid #faf089;
+    text-align: center;
+}
+
+.staff-restriction-notice {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #718096;
+    font-style: italic;
+    background: #edf2f7;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.staff-indicator-tag {
+    background-color: #2d3748;
+    color: #90cdf4;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid #4a5568;
+    letter-spacing: 0.5px;
+}
