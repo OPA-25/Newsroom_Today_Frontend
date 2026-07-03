@@ -20,3 +20,5 @@ Here's a README description customized for **Newsroom Today**:
 * Responsive UI
 * SEO-friendly public news portal
 * Role-based access control and content management
+
+Backend Repo: https://github.com/OPA-25/Newsroom_Today_Backend
