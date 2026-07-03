@@ -2,7 +2,7 @@ Here's a README description customized for **Newsroom Today**:
 
 # Newsroom Today
 
-**Newsroom Today** is a modern full-stack bilingual news portal developed using **React.js**, **Spring Boot**, and **MySQL**. It enables news organizations to efficiently manage and publish articles through a secure role-based content management system. The platform supports Admin, Editor, and Reporter workflows, automated news fetching, Hindi-English translation, article lifecycle management, opinion polls, engagement features, category-based news, dark mode, and a fully responsive interface, delivering a seamless experience for both administrators and readers.
+**Newsroom Today** is a modern full-stack bilingual news portal developed using **React.js**, **Spring Boot**, and **MySQL**. It enables news organizations to efficiently manage and publish articles through a secure role-based content management system. The platform supports Admin, Editor, and Reporter workflows, automated news fetching, Hindi-English translation, article lifecycle management, category-based news, and a fully responsive interface, delivering a seamless experience for both administrators and readers.
 
 ### Tech Stack
 
@@ -16,8 +16,7 @@ Here's a README description customized for **Newsroom Today**:
 * Create, Edit, Draft, Publish & Delete articles
 * Automatic news fetching from external APIs
 * Hindi ↔ English translation
-* Article expiry & scheduled cleanup
-* Categories, polls, likes, reactions & view counter
-* Responsive UI with Dark/Light mode
+* Categories & view counter
+* Responsive UI
 * SEO-friendly public news portal
 * Role-based access control and content management
